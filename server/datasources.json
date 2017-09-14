@@ -1,0 +1,12 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "capstone_lb": {
+    "name": "capstone_lb",
+    "localStorage": "",
+    "file": "/Users/dan/Documents/workspace/GAWDISF/capstone/capstone_lb/data/my_data.json",
+    "connector": "memory"
+  }
+}

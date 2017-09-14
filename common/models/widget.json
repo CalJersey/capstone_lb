@@ -1,0 +1,42 @@
+{
+  "name": "Widget",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "user_id": {
+      "type": "number",
+      "required": true
+    },
+    "api_id": {
+      "type": "number",
+      "required": true
+    },
+    "instance_1_value": {
+      "type": "string"
+    },
+    "instance_2_value": {
+      "type": "string"
+    },
+    "instance_3_value": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "_id": {
+      "type": "belongsTo",
+      "model": "User",
+      "foreignKey": ""
+    },
+    "Widget_ID": {
+      "type": "hasOne",
+      "model": "API",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
