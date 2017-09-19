@@ -6,14 +6,6 @@
     "validateUpsert": true
   },
   "properties": {
-    "user_id": {
-      "type": "number",
-      "required": true
-    },
-    "api_id": {
-      "type": "number",
-      "required": true
-    },
     "instance_1_value": {
       "type": "string"
     },
@@ -26,13 +18,13 @@
   },
   "validations": [],
   "relations": {
-    "_id": {
+    "user_": {
       "type": "belongsTo",
       "model": "User",
       "foreignKey": ""
     },
-    "Widget_ID": {
-      "type": "hasOne",
+    "api_": {
+      "type": "belongsTo",
       "model": "API",
       "foreignKey": ""
     }

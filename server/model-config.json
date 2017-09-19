@@ -14,33 +14,33 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "capstone_lb"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "capstone_lb",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "capstone_lb",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "capstone_lb",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "capstone_lb",
     "public": false
   },
   "API": {
-    "dataSource": "db",
+    "dataSource": "capstone_lb",
     "public": true
   },
   "Widget": {
-    "dataSource": "db",
+    "dataSource": "capstone_lb",
     "public": true
   }
 }

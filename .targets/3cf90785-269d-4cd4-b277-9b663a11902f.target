@@ -1,0 +1,138 @@
+type: bluemix
+server:
+  displayName: US South
+  name: us-south
+  host: us.apiconnect.ibmcloud.com
+org:
+  id: 59bf4d610cf2d50d1ad09c19
+  name: viatd-enterprises-dev
+  displayName: viatD Enterprises (dev)
+  orgType: apiProvider
+  status: active
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+  dormant: false
+  url: 'https://us.apiconnect.ibmcloud.com/v1/orgs/59bf4d610cf2d50d1ad09c19'
+  externalOrgId: 3a6e9800-1658-4377-bfba-dee70df1ec4e
+  externalInviteOverride: 'https://console.bluemix.net/apis/catalog/invitation?env_id=ibm:yp:us-south'
+  externalSpaceId: 3a6e9800-1658-4377-bfba-dee70df1ec4e
+  externalNativeOrgId: 9f31cc0b-1460-4f1a-bb3b-a896c44b8736
+  bluemix:
+    inviteUri: 'https://console.bluemix.net/apis/catalog/invitation?env_id=ibm:yp:us-south'
+    organization: 9f31cc0b-1460-4f1a-bb3b-a896c44b8736
+    space: 3a6e9800-1658-4377-bfba-dee70df1ec4e
+catalog:
+  id: 59bf4d610cf2d50d1ad09c26
+  orgId: 59bf4d610cf2d50d1ad09c19
+  name: Sandbox
+  shortName: sb
+  owner:
+    id: 59bf4d5f0cf2d50d1ad09c15
+    username: crippe420@hotmail.com
+    context: apimanager
+    idpId: 58341db4e63b1219f0f068d1
+    email: crippe420@hotmail.com
+    firstName: Dan Lombardino
+    lastName: ''
+    status: ACTIVE
+    lastLoginTime: '2017-09-18T04:37:06.569+0000'
+    url: 'https://us.apiconnect.ibmcloud.com/v1/users/59bf4d5f0cf2d50d1ad09c15'
+  apiCenter: false
+  portalType: BASIC
+  portalUrl: 'https://developer.us.apiconnect.ibmcloud.com/viatd-enterprises-dev/sb'
+  advPortalUrl: 'https://sb-viatd-enterprises-dev.developer.us.apiconnect.ibmcloud.com'
+  gatewayType: DataPowerGateway
+  gwServices:
+    - id: PRODAPIC_APIMGMT_GATEWAY
+      endpointUrl: 'https://api.us.apiconnect.ibmcloud.com/viatd-enterprises-dev/sb'
+  idp: 59bf4d620cf2d50d1ad09c31
+  idps:
+    - 59bf4d620cf2d50d1ad09c31
+  availableRoles:
+    - developer
+    - viewer
+  default: false
+  autoDeploy: true
+  restrictedDeployment: false
+  invitationEnabled: true
+  selfSignUpEnabled: true
+  spaceEnabled: false
+  spaceIds:
+    - 59bf4d630cf2d50d1ad09c39
+  testAppEnabled: true
+  testAppCredentials:
+    clientId: 5273c90b-19bd-47fb-aa0f-e3e5ae5e4760
+    clientSecret: dE0fV4fC4pR5cW5cF3jG4nX7sF2bL7mH5uQ2eF3uN8kS3cJ8nW
+  createdAt: '2017-09-18T04:36:50.968+0000'
+  updatedAt: '2017-09-18T04:36:50.968+0000'
+  createdBy: apim-ops@wwpdl.vnet.ibm.com
+  updatedBy: apim-ops@wwpdl.vnet.ibm.com
+  url: >-
+    https://us.apiconnect.ibmcloud.com/v1/orgs/59bf4d610cf2d50d1ad09c19/environments/59bf4d610cf2d50d1ad09c26
+  applicationLifecycleEnabled: false
+  productDeploymentApprovalRequiredStates: []
+  orgName: viatd-enterprises-dev
+space:
+  none: true
+app:
+  metadata:
+    guid: eeb5e9f3-c4d1-4c6d-8521-a520d1fb1b84
+  entity:
+    guid: eeb5e9f3-c4d1-4c6d-8521-a520d1fb1b84
+    name: capstonelb
+    routes:
+      - guid: 27c5d498-2f1e-4917-bdcc-8b93f8e35122
+        host: apiconnect-eeb5e9f3-c4d1-4c6d-8521-a520d1fb1b84
+        port: null
+        path: ''
+        domain:
+          guid: d2d2c4a5-e4c2-4dbb-b587-eb11fa137e9d
+          name: viatd-enterprises-dev.apic.mybluemix.net
+    running_instances: 0
+    services: []
+    available_domains:
+      - guid: d2d2c4a5-e4c2-4dbb-b587-eb11fa137e9d
+        name: viatd-enterprises-dev.apic.mybluemix.net
+        owning_organization_guid: 9f31cc0b-1460-4f1a-bb3b-a896c44b8736
+      - guid: f4b90d7e-2cd3-4d30-b200-f28bbaf6be20
+        name: mybluemix.net
+        router_group_guid: null
+        router_group_type: null
+    production: false
+    space_guid: 3a6e9800-1658-4377-bfba-dee70df1ec4e
+    stack_guid: ac91d31a-86a3-453b-babf-8d49c9d763fc
+    buildpack: null
+    detected_buildpack: null
+    detected_buildpack_guid: null
+    environment_json: {}
+    memory: 256
+    instances: 1
+    disk_quota: 1024
+    state: STOPPED
+    version: 7f355c49-5ec5-4d9f-ae51-2cb18d060d48
+    command: null
+    console: false
+    debug: null
+    staging_task_id: null
+    package_state: PENDING
+    health_check_type: port
+    health_check_timeout: null
+    health_check_http_endpoint: null
+    staging_failed_reason: null
+    staging_failed_description: null
+    diego: true
+    docker_image: null
+    package_updated_at: '2017-09-18T08:37:46Z'
+    detected_start_command: ''
+    enable_ssh: true
+    docker_credentials_json:
+      redacted_message: '[PRIVATE DATA HIDDEN]'
+    ports: null
+id: 3cf90785-269d-4cd4-b277-9b663a11902f
+target: 1.0.0
+versionOptions:
+  inplaceUpdate: true
+publishApp: true
+workspaceDir:
+  path: /Users/dan/Documents/workspace/GAWDISF/capstone/capstone_lb

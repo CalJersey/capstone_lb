@@ -6,11 +6,11 @@
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "name":{
       "type": "string",
-      "required": true
+      "required": "true"
     },
-    "base_URL": {
+    "base_url": {
       "type": "string",
       "required": true
     },
@@ -46,6 +46,14 @@
     },
     "instance_3_key": {
       "type": "string"
+    },
+    "request_format": {
+      "type": "string",
+      "default": "json"
+    },
+    "component_file_path": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],

@@ -1,0 +1,37 @@
+{
+  "ids": {
+    "User": 4,
+    "AccessToken": 14,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "API": 4,
+    "Widget": 7
+  },
+  "models": {
+    "User": {
+      "1": "{\"password\":\"$2a$10$91nut4gSqxU9LkzTrfqZ.eU9QKH.EoiT3/q/ueKr.Orf2FZDvpuK.\",\"email\":\"dan@vitad.com\",\"id\":1}",
+      "2": "{\"password\":\"$2a$10$mg1SzBdYHKe.o1LAgvZG9O8aFa8FlAJJBiXFIdCsQ0Ohq6OCnceTu\",\"email\":\"dan2@vitad.com\",\"id\":2}",
+      "3": "{\"password\":\"$2a$10$gAHlsXzJw6ZUFfNi7uWCaOVprJQDSwDd2ucYOuDaun9rTccGFb8KG\",\"email\":\"dan3@vitad.com\",\"id\":3}"
+    },
+    "AccessToken": {
+      "gIR7HDW4hwoQoRNDyCJFltF9AYZ7VOhWVSJ4ECeUrF98IjNGJlYLrMfNjKZDD1GC": "{\"id\":\"gIR7HDW4hwoQoRNDyCJFltF9AYZ7VOhWVSJ4ECeUrF98IjNGJlYLrMfNjKZDD1GC\",\"ttl\":1209600,\"created\":\"2017-09-18T20:57:59.422Z\",\"userId\":1}",
+      "VasCPkYeJesAXAF4bDFaS7JcL96VroCGyxExntnoyBbTnwc3i7PMjk9z5wO9hLO9": "{\"id\":\"VasCPkYeJesAXAF4bDFaS7JcL96VroCGyxExntnoyBbTnwc3i7PMjk9z5wO9hLO9\",\"ttl\":1209600,\"created\":\"2017-09-18T23:07:06.506Z\",\"userId\":1}"
+    },
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "API": {
+      "2": "{\"name\":\"Merriam-Webster Dictionary\",\"base_url\":\"http://www.dictionaryapi.com/api/v1/references/collegiate/xml/\",\"app_key_name\":\"key\",\"app_key_value\":\"d5060fb7-003d-49fe-acce-9f5383615493\",\"request_format\":\"xml\",\"component_file_path\":\"MWDict/MWDict.js\",\"id\":2}",
+      "3": "{\"name\":\"Merriam-Webster English to Spanish Translator\",\"base_url\":\"http://www.dictionaryapi.com/api/v1/references/spanish/xml/language\",\"app_key_name\":\"key\",\"app_key_value\":\"9e2375a7-3e2d-4758-9fb6-90e5dec676ba\",\"request_format\":\"xml\",\"component_file_path\":\"MWSpanish/MWSpanish.js\",\"id\":3}"
+    },
+    "Widget": {
+      "1": "{\"user_Id\":1,\"api_Id\":3,\"id\":1}",
+      "2": "{\"user_Id\":2,\"api_Id\":3,\"id\":2}",
+      "3": "{\"user_Id\":3,\"api_Id\":3,\"id\":3}",
+      "4": "{\"user_Id\":3,\"api_Id\":2,\"id\":4}",
+      "5": "{\"user_Id\":2,\"api_Id\":2,\"id\":5}",
+      "6": "{\"user_Id\":1,\"api_Id\":2,\"id\":6}"
+    }
+  }
+}

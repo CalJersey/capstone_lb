@@ -1,8 +1,4 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
   "capstone_lb": {
     "name": "capstone_lb",
     "localStorage": "",

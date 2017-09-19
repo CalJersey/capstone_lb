@@ -1,0 +1,25 @@
+product: 1.0.0
+info:
+  name: capstonelbibm
+  title: capstone_lbibm
+  version: 1.0.0
+  description: LoopBack APi for HUH Dashboard
+  contact:
+    name: CalJersey
+    email: crippe420@hotmail.com
+visibility:
+  view:
+    type: public
+  subscribe:
+    type: authenticated
+plans:
+  default:
+    title: Default Plan
+    description: Default Plan
+    approval: false
+    rate-limit:
+      value: 100/hour
+      hard-limit: false
+apis:
+  capstone_lb:
+    $ref: ../capstonelb_swagger.yaml
