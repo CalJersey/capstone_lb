@@ -51,7 +51,11 @@
       "type": "string",
       "default": "json"
     },
-    "component_file_path": {
+    "component_file_dir": {
+      "type": "string",
+      "required": true
+    },
+    "component_file_name": {
       "type": "string",
       "required": true
     }
