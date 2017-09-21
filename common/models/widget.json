@@ -1,0 +1,43 @@
+    {
+  "name": "Widget",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "instance_1_value": {
+      "type": "string"
+    },
+    "instance_2_value": {
+      "type": "string"
+    },
+    "instance_3_value": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "Id": {
+      "type": "belongsTo",
+      "model": "User",
+      "foreignKey": "userId"
+    },
+    "aPEye": {
+      "type": "belongsTo",
+      "model": "APEye",
+      "foreignKey": "apEyeId"
+    },
+    "user": {
+      "type": "belongsTo",
+      "model": "User",
+      "foreignKey": "userId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
