@@ -1,0 +1,67 @@
+{
+  "name": "API",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name":{
+      "type": "string",
+      "required": "true"
+    },
+    "base_url": {
+      "type": "string",
+      "required": true
+    },
+    "app_key_name": {
+      "type": "string"
+    },
+    "app_key_value": {
+      "type": "string"
+    },
+    "config_1_key": {
+      "type": "string"
+    },
+    "config_1_value": {
+      "type": "string"
+    },
+    "config_2_key": {
+      "type": "string"
+    },
+    "config_2_value": {
+      "type": "string"
+    },
+    "config_3_key": {
+      "type": "string"
+    },
+    "config_3_value": {
+      "type": "string"
+    },
+    "instance_1_key": {
+      "type": "string"
+    },
+    "instance_2_key": {
+      "type": "string"
+    },
+    "instance_3_key": {
+      "type": "string"
+    },
+    "request_format": {
+      "type": "string",
+      "default": "json"
+    },
+    "component_file_dir": {
+      "type": "string",
+      "required": true
+    },
+    "component_file_name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

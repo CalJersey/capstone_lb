@@ -1,4 +1,4 @@
-    {
+{
   "name": "Widget",
   "base": "PersistedModel",
   "idInjection": true,
@@ -22,17 +22,13 @@
   },
   "validations": [],
   "relations": {
-    "Id": {
-      "type": "belongsTo",
-      "model": "User",
-      "foreignKey": "userId"
-    },
-    "aPEye": {
+
+    "aPEye_": {
       "type": "belongsTo",
       "model": "APEye",
       "foreignKey": "apEyeId"
     },
-    "user": {
+    "user_": {
       "type": "belongsTo",
       "model": "User",
       "foreignKey": "userId"
