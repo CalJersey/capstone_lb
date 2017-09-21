@@ -1,0 +1,23 @@
+{
+  "name": "capstone_lb",
+  "scripts": {
+  },
+  "env": {
+    "BUILDPACK_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "git://github.com/ramr/strongloop-buildpack.git"
+    }
+  ]
+}
