@@ -6,7 +6,9 @@
     "lint": "eslint .",
     "start": "node .",
     "posttest": "npm run lint && nsp check"
-  },
+  }, "engines": {
+        "node": "0.10.x"
+    },
 
   "dependencies": {
     "compression": "^1.0.3",
