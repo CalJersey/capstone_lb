@@ -44,3 +44,4 @@
     "public": true
   }
 }
+server.enableAuth({ datasource: 'db' });
